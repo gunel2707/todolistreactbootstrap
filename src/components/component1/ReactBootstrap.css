@@ -1,0 +1,29 @@
+p{font-size: 50px;
+color: blue;
+font-weight: bold;
+}
+.list {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  list-style: none;
+}
+.addnew {
+  background-color: aqua;
+  border-radius: 20px;
+  font-size: 25px;
+  color: white;
+}
+.list li {
+  display: flex;
+  gap: 30px;
+}
+.delete {
+  background-color: red;
+  color: white;
+}
+.edit {
+  background-color: green;
+  color: white;
+}
